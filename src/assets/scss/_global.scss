@@ -1,0 +1,31 @@
+@import './_bootstrap-custom.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Inter Tight", sans-serif !important;
+  background-color: #131313 !important;
+}
+
+.section {
+  z-index: 1;
+  position: relative;
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
+
+.btn-media,
+.btn-media:hover,
+.btn-media:focus,
+.btn-media:active {
+  color: #fff !important;
+  letter-spacing: 1px;
+  &.spotify {
+    background: #1BB954;
+  }
+  &.applemusic {
+    background: #F4384C;
+  }
+  &.youtube {
+    background: #F70000;
+  }
+}
